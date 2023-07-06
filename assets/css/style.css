@@ -1,0 +1,134 @@
+header .navbar a {
+    color: wheat !important
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none !important;
+    /* color: black !important; */
+    
+}
+
+p{
+    font-size: 1.3rem;
+}
+
+.navbar img {
+    height: 4rem !important;
+    width: 4rem;
+}
+
+
+.about_us, .contactUs_section {
+    padding-top: 9rem;
+    padding-bottom: 4rem;
+    background-image: url(../images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-color: rgb(168, 159, 159);
+}
+
+.about_us .btn{
+    padding: 1.7rem;
+    background-color: black;
+    color : white;
+}
+
+.about_us .btn:hover{
+    color:black;
+    background-color: orange;
+}
+
+.leaders_sec h6, p {
+    margin-top: 1rem;
+    /* font-size: 16px; */
+}
+.pepole_section{
+    background-color:rgb(255, 165, 0, .6);
+}
+
+.pepole_section .card{
+    box-shadow: 3px 2px 10px -3px rgb(0, 0, 0, .6) !important;
+}
+
+.pepole_section p,h3{
+    margin-top : 2rem
+}
+
+.contactUs_section img{
+    /* width: 100%; */
+    object-fit: contain;
+    /* height: 540px; */
+}
+
+footer a{
+    text-decoration:blue !important;
+    color: blue !important;
+}
+
+@media screen and (max-width :778px ){
+    .pepole_section .card{
+        margin-bottom: 1rem !important;
+       
+    }
+}
+
+
+@media screen and (min-width : 778px) and (max-width : 992px){
+    .pepole_section .card{
+        margin-bottom: 1rem !important;
+       
+    }
+}
+
+
+
+@media screen and (min-width : 992px){
+    .about_us img {
+        height: 750px !important;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .flex {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 4rem;
+    }
+
+    .about_us p {
+        margin-top: 3rem;
+        font-weight: 400;
+    }
+
+    .leaders_sec figure {
+        flex-basis: 24%;
+    }
+
+   
+.pepole_section .card{
+    margin-bottom: 1rem !important;
+    min-height: 29rem;
+   
+}
+
+
+.contactUs_section li{
+    font-size: 1.4rem;
+}
+
+    .margin-top {
+        margin-top: 8rem;
+    }
+}
