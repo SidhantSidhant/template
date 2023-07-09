@@ -27,6 +27,19 @@ p{
     width: 4rem;
 }
 
+.pepole_section .card img{
+    border : 3px solid blue;
+}
+
+iframe{
+    width: 100%;
+    height: 60vh;
+}
+
+.pepole_section img{
+    min-height: 14rem;
+    object-fit: cover;
+}
 
 .about_us, .contactUs_section {
     padding-top: 9rem;
@@ -78,10 +91,20 @@ footer a{
 }
 
 @media screen and (max-width :778px ){
+
+    h1,h2,h3,h4,h5,h6,p{
+        font-size: 16px;
+    }
+    
     .pepole_section .card{
         margin-bottom: 1rem !important;
        
     }
+
+    .order{
+        order: -1 !important;
+    }
+   
 }
 
 
@@ -89,6 +112,25 @@ footer a{
     .pepole_section .card{
         margin-bottom: 1rem !important;
        
+    }
+
+    .pepole_section img{
+        min-height: 4rem;
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around   ;
+        margin-top: 4rem;
+    }
+
+    /* .leaders_sec figure {
+        flex-basis: 45%;
+    } */
+
+    .order{
+        order: -1 !important;
     }
 }
 
@@ -122,6 +164,8 @@ footer a{
     min-height: 29rem;
    
 }
+
+
 
 
 .contactUs_section li{
