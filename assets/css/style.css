@@ -6,7 +6,11 @@ header{
 }
 
 header .navbar a {
-    color: wheat !important
+    color: orange !important
+}
+
+header .navbar img{
+    width: 140px;
 }
 
 h1{
