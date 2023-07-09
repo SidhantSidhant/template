@@ -1,3 +1,10 @@
+header{
+    background-color: rgb(0, 0, 0, .5) !important;
+    position: fixed;
+    width: 100%;
+    z-index: 111;
+}
+
 header .navbar a {
     color: wheat !important
 }
